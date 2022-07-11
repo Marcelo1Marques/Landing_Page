@@ -1,0 +1,24 @@
+html {
+    font-size: medium;
+    background-color:#C0C0C0;
+}
+body {
+    background-color: #ffffff;
+  }
+  
+  h1
+   {font-size: smaller;
+    color: #000000;
+  }
+  
+  .text-black {
+    color: #000000;
+  }
+  
+  .text-green-dark {
+    color: #334d4b;
+  }
+  p {
+    color: #000000;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+  }

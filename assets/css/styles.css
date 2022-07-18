@@ -18,3 +18,44 @@
   .text {
     font-family: "Trebuchet MS", Verdana, sans-serif;
   }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+  }
+  
+  .img {
+    height: 170px;
+    width: 170px;
+  }
+  
+  .text-blueviolet {
+    color: blueviolet;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+  }
+  
+  .center {
+    justify-content: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .around {
+    justify-content: space-around;
+  }
+  
+  .between {
+    justify-content: space-between;
+  }
+  
+  .height {
+    height: 170px;
+  }

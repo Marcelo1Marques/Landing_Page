@@ -36,6 +36,9 @@
     padding: 80px;
   }
   
+  .flex {
+    flex: auto;
+  }
   
   .flex-row {
     flex-direction: row;

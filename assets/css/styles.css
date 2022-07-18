@@ -1,5 +1,5 @@
-.image {
-  background-image: -moz-repeating-linear-gradient();
+.bg-none {
+  background-image: none;
 }
 
 .background {
@@ -9,10 +9,6 @@
   
   .text-black {
     color: #000000;
-  }
-  
-  .text-green-dark {
-    color: #334d4b;
   }
   
   .text {
@@ -34,26 +30,15 @@
     color: blueviolet;
   }
   
-  .list {
+  .list-none {
     display: flex;
     justify-content: space-between;
     padding: 80px;
   }
   
-  .center {
-    justify-content: center;
-  }
   
-  .flex {
-    display: flex;
-  }
-  
-  .around {
-    justify-content: space-around;
-  }
-  
-  .between {
-    justify-content: space-between;
+  .flex-row {
+    flex-direction: row;
   }
   
   .height {

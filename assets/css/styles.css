@@ -1,41 +1,48 @@
 .bg-none {
+
   background-image: none;
 }
 
-.background {
-    background-color: #ffffff;
+.bg-gray {
+    background-color: #C0C0C0;
   }
   
+  .text-align{
+    text-align: center;
+  }
   
   .text-black {
     color: #000000;
   }
-  
-  .text {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-  }
 
+  .no-underline {
+    text-decoration: none;
+  }
+  
   .header {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: auto;
   }
   
   .img {
-    height: 170px;
-    width: 170px;
+    flex-basis: 40%;
+    height: 200px;
+    width: 700px;
   }
   
   .text-blueviolet {
     color: blueviolet;
   }
+
+  .list-none { 
+    list-style-type: none;
+    }
   
-  .list-none {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px;
-  }
-  
+.justify-around {
+  justify-content: space-around;
+}
+
   .flex {
     display: flex;
   }
@@ -47,3 +54,9 @@
   .height {
     height: 170px;
   }
+  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

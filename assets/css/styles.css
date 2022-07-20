@@ -7,7 +7,7 @@
     background-color: #C0C0C0;
   }
   
-  .text-align{
+  .text-center{
     text-align: center;
   }
   
@@ -17,12 +17,6 @@
 
   .no-underline {
     text-decoration: none;
-  }
-  
-  .header {
-    display: flex;
-    flex-direction: row;
-    width: auto;
   }
   
   .img {
@@ -54,9 +48,3 @@
   .height {
     height: 170px;
   }
-  
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

@@ -33,6 +33,14 @@
       text-align: center;
     }
 
+    .text-glow {
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .text-dark-red {
+      color: #571919;
+    }
+
   /*Images*/
   .basis-4 {
     flex-basis: 1rem;
@@ -68,10 +76,6 @@
 
 .w-28 {
   width: 7rem;
-}
-
-.overflow-hidden {
-  overflow:visible;
 }
 
   /*Grid*/
@@ -113,3 +117,11 @@
  .align-items-center {
   align-items: center;
  }
+
+ /*Footer*/
+
+ .fixed {
+  position: fixed bottom;
+ }
+
+ 

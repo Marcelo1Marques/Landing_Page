@@ -33,10 +33,6 @@
       text-align: center;
     }
 
-    .text-glow {
-      animation: glow 1s ease-in-out infinite alternate;
-    }
-
     .text-dark-red {
       color: #571919;
     }
@@ -46,8 +42,8 @@
     flex-basis: 1rem;
   }
 
-  .h-72 {
-    height: 18rem;
+  .h-80 {
+    height: 20rem;
   }
   
   .w-96 {
